@@ -22,9 +22,9 @@ import java.util.concurrent.TimeUnit;
  */
 public class IslandSimulation {
     private final long startTime;
-    private final int countHerbivores = 35;
-    private final int countPlants = 40;
-    private final int countPredators = 20;
+    private final int countHerbivores = 10;
+    private final int countPlants = 15;
+    private final int countPredators = 5;
     private static volatile IslandSimulation instance;
     private volatile ScheduledExecutorService executorService;
 
