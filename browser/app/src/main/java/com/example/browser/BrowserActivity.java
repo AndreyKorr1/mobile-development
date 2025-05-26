@@ -15,8 +15,8 @@ public class BrowserActivity extends Activity {
         setContentView(R.layout.browser);
 
         WebView webView = findViewById(R.id.webView);
-        webView.setWebViewClient(new WebViewClient()); // чтобы ссылки открывались внутри
-        webView.getSettings().setJavaScriptEnabled(true); // если нужна поддержка JS
+        webView.setWebViewClient(new WebViewClient()); 
+        webView.getSettings().setJavaScriptEnabled(true); 
 
         Uri data = getIntent().getData();
         if (data != null) {

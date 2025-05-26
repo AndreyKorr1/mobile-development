@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, BrowserActivity.class);
-                intent.setData(Uri.parse("https://www.ya.ru"));  // сюда можно подставлять любые сайты
+                intent.setData(Uri.parse("https://www.ya.ru"));  
                 startActivity(intent);
             }
         });
